@@ -1,0 +1,50 @@
+# KiCad library repo: symbols (*.kicad_sym), footprints (*.pretty), design blocks (*.kicad_blocks).
+# https://www.kicad.org/
+
+# Backups, autosaves, and rescue copies
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_sym-bak
+*.kicad_mod-bak
+*.sch-bak
+*-bak
+*-backups/
+_autosave-*
+\#auto_saved_files#
+*.tmp
+*-save.pro
+*-save.kicad_pro
+*-save.kicad_pcb
+*-save.kicad_sch
+*-save.kicad_sym
+*-save.kicad_mod
+*-rescue.lib
+*-rescue.kicad_sym
+*-cache.lib
+
+# Footprint library metadata cache (written inside *.pretty and next to projects)
+fp-info-cache
+
+# Editor lock files
+*.lck
+~*.lck
+
+# Per-user project state and KiCad 9 local history
+*.kicad_prl
+.history/
+
+# Exports (netlists, autorouter, BOM). Library sources stay tracked.
+*.net
+*.dsn
+*.ses
+*.xml
+*.csv
+
+# Editor and OS junk
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
